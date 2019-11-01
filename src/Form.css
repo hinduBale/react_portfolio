@@ -1,0 +1,83 @@
+.form_container{
+	background-color: #1e1a1d;
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.form_container p{
+	color: #fff;
+}
+
+.form_container h1{
+	color: #fff;
+	display: inline-block;
+	border-bottom: 2px solid #a60a0a;
+}
+
+#adjustName{
+	width: 400px;
+	height: 50px;
+	border: 3px solid #a60a0a;
+	text-align: center;
+}
+
+#adjustEmail{
+	width: 400px;
+	height: 50px;
+	border: 3px solid #a60a0a;
+	text-align: center;
+}
+
+#adjustMsg{
+	width: 800px;
+	height:150px;
+	border: 3px solid #a60a0a;
+	text-align: center;
+}
+
+#submitButton {
+  border-radius: 4px;
+  background-color: #a60a0a;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#submitButton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+#submitButton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+#submitButton span {
+  padding-right: 25px;
+}
+
+#submitButton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.msgBox{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}

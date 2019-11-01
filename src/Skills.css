@@ -1,0 +1,17 @@
+.bar{
+  height:7px;
+  width: 130px;
+  background: linear-gradient(to right, #676a6c 50%, #efefef 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}.barOn{
+  height:7px;
+  width: 130px;
+  background: linear-gradient(to right, #676a6c 50%, #efefef 50%);
+  background-size: 200% 100%;
+  background-position: left bottom;
+  cursor: pointer;
+  transition: all 0.5s linear;
+}
